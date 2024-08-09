@@ -19,4 +19,15 @@ This project is an IoT-based temperature monitoring system that uses a Raspberry
 - Python 3
 - MQTT Broker (e.g., Mosquitto)
 - Python Libraries (see `requirements.txt`)
-- 
+# Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone ## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/raspberry-pi-iot-temperature-monitor.git
+   cd raspberry-pi-iot-temperature-monitor
