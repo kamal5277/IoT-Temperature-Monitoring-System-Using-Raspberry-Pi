@@ -28,14 +28,16 @@ This project is an IoT-based temperature monitoring system that uses a Raspberry
    cd IoT-Temperature-Monitoring-System-Using-Raspberry-Pi
 
 2.Install Dependencies:
+
 pip install -r requirements.txt
 
 3.Connect the DHT Sensor:
+
 VCC: Connect to the 3.3V pin on the Raspberry Pi.
 GND: Connect to a Ground pin on the Raspberry Pi.
 Data: Connect to GPIO4 (or another GPIO pin, but update the code accordingly).
 
-Usage
+# Usage
 Publisher Program
 The Publisher Program reads temperature data from the DHT sensor and publishes it to an MQTT topic every 60 seconds.
 
