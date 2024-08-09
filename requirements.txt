@@ -1,0 +1,9 @@
+paho-mqtt==1.6.1
+Adafruit-DHT==1.4.0
+Flask==2.3.2
+
+
+Explanation of the Dependencies:
+paho-mqtt: This library is used for MQTT client functionality in both the Publisher and Subscriber programs.
+Adafruit-DHT: This library is specific to the Publisher program on the Raspberry Pi, allowing it to read data from the DHT sensor.
+Flask: This library is used in the Server program to create a simple HTTP server to expose the sensor data.
